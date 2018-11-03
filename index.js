@@ -7,7 +7,7 @@ console.log("HOLA");
 require('dotenv').config();
 
 var dash_button = require('node-dash-button');
-var dash = dash_button(process.env.ADDRESS, null, null, 'all');
+var dash = dash_button(process.env.ADDRESS, "eth6", null, 'all');
 
 var {IncomingWebhook} = require('@slack/client');
 var url =  process.env.SLACK_WEBHOOK_URL; // TEST
