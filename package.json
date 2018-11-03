@@ -22,5 +22,7 @@
     "url": "https://github.com/imartinezl/dashbutton/issues"
   },
   "homepage": "https://github.com/imartinezl/dashbutton#readme",
-  "dependencies": {}
+  "dependencies": {
+    "@slack/client": "^4.8.0"
+  }
 }
