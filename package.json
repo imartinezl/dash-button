@@ -24,6 +24,7 @@
   "homepage": "https://github.com/imartinezl/dashbutton#readme",
   "dependencies": {
     "@slack/client": "^4.8.0",
+    "dotenv": "^6.1.0",
     "node-dash-button": "^0.6.1"
   }
 }
