@@ -66,7 +66,7 @@ SLACK_WEBHOOK_URL='https://hooks.slack.com/services/*********/*********/********
 ADDRESS='**:**:**:**:**:**'
 MESSAGE='Come and join us!! Meeting with food :cake:'
 ```
-Run the index.js and 
+Run the index.js: 
 ```
 $ sudo node index.js
 ```
