@@ -2,8 +2,6 @@
 //cd node_modules/node-dash-button
 //sudo node bin/findbutton
 
-console.log("HOLA");
-
 require('dotenv').config();
 
 var dash_button = require('node-dash-button');
@@ -16,7 +14,7 @@ var mins = 1 // 12 minutes to brew a pot
 
 dash.on("detected", function (){
 	payload={
-		"text": "Come and join us!! Meeting with food :cake:"
+		"text": process.env.MESSAGE
 	}
 
   sendWebhook = function () {
