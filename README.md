@@ -2,10 +2,6 @@
 
 ![Blank Dash](http://i.imgur.com/PP0CJ3s.png?1)
 
-[![Travis-CI Build Status](https://travis-ci.org/hortinstein/node-dash-button.svg)](https://travis-ci.org/hortinstein/node-dash-button)  [![Coverage Status](https://coveralls.io/repos/hortinstein/node-dash-button/badge.svg?branch=master&service=github)](https://coveralls.io/github/hortinstein/node-dash-button?branch=master)  [![gitter](https://img.shields.io/badge/gitter-join%20chat-green.svg?style=flat)](https://gitter.im/hortinstein/node-dash-button)
-
-This module was inspired by [this fantastic article by Edward Bensen](https://medium.com/@edwardbenson/how-i-hacked-amazon-s-5-wifi-button-to-track-baby-data-794214b0bdd8).
-
 This simple script allows the use of [Amazon dash button](https://www.amazon.com/Dash-Buttons/b?ie=UTF8&node=10667898011) to send an slack message to slack. In order to do so, I am using the [node-dash-button](https://github.com/hortinstein/node-dash-button) module.
 
 ### Setup
